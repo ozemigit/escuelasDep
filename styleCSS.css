@@ -1,0 +1,196 @@
+*{ 
+    font-size: 14px;  
+    font-family: sans-serif;  
+}
+header{
+	background-color: #0d4277;
+	color: white;
+	height: 100px;
+}
+#contenedor{
+	background-color: #c9eabb;
+	min-height: 400px;
+	overflow:hidden;
+}
+#menu{
+	float: left;
+	width: 20%;
+	height: 400px;
+	background-color: #c9eabb;
+}
+#contenido{
+	float: left;
+	width: 80%;
+	background-color: #bed9db;
+	min-height: 400px;
+	overflow:hidden;
+}
+form.miFormu {  
+    background-color: #F1F1F1;  
+    border: 1px solid #DDDDDD;  
+    margin: 0 auto;  
+    padding: 20px;  
+    width: 278px;  
+}  
+form.miFormu div {  
+    margin-bottom: 15px;  
+    overflow: hidden;  
+}  
+form.miFormu div label {  
+    display: block;  
+    float: left;  
+    line-height: 25px;  
+}  
+form.miFormu div input[type="text"], form.miFormu div input[type="password"] {  
+    border: 1px solid #DCDCDC;  
+    float: right;  
+    padding: 4px;  
+}  
+form.miFormu div input[type="submit"] {  
+    background-color: #DEDEDE;  
+    border: 1px solid #C6C6C6;  
+    float: right;  
+    font-weight: bold;  
+    padding: 4px 20px;  
+}  
+.error{
+    color: red;  
+    font-weight: bold;  
+    margin: 10px;
+    text-align: center;
+}
+.bieen {
+    color: green;  
+    font-weight: bold;  
+    margin: 10px;  
+    text-align: center;
+}
+img{
+    vertical-align: middle;
+}
+#colectivos {
+    margin-left: 30px;
+    float: left;
+}
+#individuales {
+    margin-left: 80px;
+    float: left;
+}
+#nuevo {
+    margin: 10px 15px 10px 30px;
+    clear: left;
+    background-color: #C6C6C6;
+    text-align: right;
+    width: 80%;
+}
+form.formudeportes {
+    background-color: #F1F1F1;
+    border: 1px solid #DDDDDD;
+    margin: 0 auto;
+    padding: 20px;
+    width: 778px;
+    overflow: hidden;
+}
+form.formudeportes div#izq {
+    width: 200px;
+    float: left;
+    padding: 30px;
+}
+form.formudeportes div#der {
+    width: 200px;
+    float: left;
+    padding: 30px;
+}
+form.formudeportes div {
+    margin-bottom: 15px;
+    overflow: hidden;
+
+}
+form.formudeportes div label {
+    display: block;
+    float: left;
+    line-height: 25px;
+}
+form.formudeportes div input[type="text"], form.miFormu div input[type="password"], form.miFormu div input[type="number"] {
+    border: 1px solid #DCDCDC;
+    float: right;
+    padding: 4px;
+}
+form.formudeportes div input[type="submit"] {
+    background-color: #DEDEDE;
+    border: 1px solid #C6C6C6;
+    float: right;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+.logo{
+    /*background-color: red;*/
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#imglogo{
+    width: 100%;
+    height: 100%;
+}
+/*imagenes deportes*/
+.tdimg{
+    background-color: inherit;
+    width: 100px;
+    height: 100px;
+}
+.tdimg img{
+    width: 100%;
+    height: auto;
+}
+/*---------*/
+.modimg{
+    background-color: inherit;
+    width: 100px;
+    height: 100px;
+}
+div.modimg img{
+    width: 100%;
+    height: auto;
+}
+/*EQUIPOS*/
+.equipos table{
+    margin-left: 30px;
+}
+.equipos td{
+    text-align:center;
+    padding: 5px;
+    border: 3px outset #f1f1f1;
+}
+.trequipos{
+    background-color: darkseagreen;
+    font-style: italic;
+}
+/* ----------*/
+
+#colectivos th {
+    border-bottom: 3px outset #f1f1f1;
+    padding-right: 100px;
+    color: #0d4277;
+}
+#individuales th {
+    border-bottom: 3px outset #f1f1f1;
+    padding-right: 100px;
+    color: tomato;
+}
+/*tabla todos ALUMNOS*/
+#todosAlumnos {
+    margin-left: 30px;
+}
+#todosAlumnos td{
+    padding: 5px;
+    border-bottom: 3px outset #f1f1f1;
+}
+#todosAlumnos th{
+    background-color: darkslategrey;
+    color: cadetblue;
+    text-align:center;
+    padding: 5px;
+    border: 3px outset #f1f1f1;
+}
+/* ----------*/
